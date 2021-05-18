@@ -8,6 +8,7 @@ html, body {
 
 body {
     background-color: hsla(0,0%,96.1%,.5);
+    
 }
 
 nav { 
@@ -18,17 +19,38 @@ nav {
     color: white;
 }
 
+.brand-logo {
+    letter-spacing: .5px;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+	border-radius: 2px;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
+    margin: 0 auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.fa-user-tie, 
+.fa-user-cog,
+.fa-graduation-cap {
+    color: gray;
+}
+
 .container {
     display: flex;
     flex-direction: row;
 }
 
-.brand-logo {
-    font-size: 20px;
+.name {
+    font-size: 25px;
+    letter-spacing: .5px;
 }
 
-.name {
-    font-size: 20px;
+.card-content {
+    letter-spacing: .5px;
 }
 
 .card-action a {
@@ -38,3 +60,4 @@ nav {
 .card-action a:hover {
     background-color: gray;
 }
+
