@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Varela';
+}
+
+body {
+    background-color: hsla(0,0%,96.1%,.5);
+}
+
+nav { 
+    background-color: #97b8e7;
+    border: none;
+    min-height: 100px;
+    margin-bottom: 4%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-logo {
+    font-size: 20px;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.card-action a {
+    background-color: #97b8e7;  
+}
+
+.card-action a:hover {
+    background-color: gray;
+}
