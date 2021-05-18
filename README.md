@@ -2,12 +2,8 @@
 ## Team Profile Generator
 
 This repository contains a team profile generator that is run through the command line using Node.js. 
-The application will use the Inquirer package to present a set of questions to the user about each
-employee in their team, which will be categorized into these classes: 
-- Employee (parent class)
-- Engineer (sub-class) 
-- Intern (sub-class) 
-- Manager (sub-class)
+The application will use the inquirer package to present a set of questions to the user about each
+employee in their team, which will be categorized into these classes: Employee (parent class), Engineer, Intern, Manager.
 
 The prompts will continue to ask the user whether they want to add another engineer, intern, or finish building their team.
 If they choose to finish building their team, the applcation will retrieve the user data and render an HTML document that lists the profiles of
@@ -31,9 +27,9 @@ each team member, with their respective information.
   - lib/ Application.js - This file contains the class Application, which controls the overall flow of the application and renders the HTML file 
   based on user input.
   
-  - lib/ Employee.js, Engineer.js, Intern.js, Manager.js - These files contain the specific properties/methods for each class.
+  - lib/ Employee.js, Engineer.js, Intern.js, Manager.js - These files contain the specific properties and methods for each class.
 
-  - src/ questions.js - This file contains the prompts that will be shown to the user using Inquirer.
+  - src/ questions.js - This file contains the prompts that will be shown to the user using inquirer.
   
   - src/ template.js - This file contains helper templates to render the HTML file.
   
