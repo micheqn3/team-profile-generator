@@ -20,6 +20,8 @@ each team member, with their respective information.
 4. Run the application in command line 
 > node index.js
 
+![Screenshot](/Assets/command-line.png)
+
 ### This repository contains: 
 
   - index.js - This file initializes a new Application object and starts the application.
@@ -48,15 +50,20 @@ each team member, with their respective information.
   - HTML/CSS
   - Chalk
 
+### Screenshot of rendered file
+
+![Screenshot](/Assets/sample-team-profile.png)
+
+
+### Walkthrough Demo
+
+https://user-images.githubusercontent.com/68047684/118858771-5bcd9a80-b88e-11eb-9f0f-d2796159f8bf.mp4
 
 ### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MIT 
 
-### Screenshot of rendered file
-
-![Screenshot](/Assets/sample-screenshot.png)
 
 
-### Walkthrough Demo
+
 
