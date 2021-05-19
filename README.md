@@ -53,5 +53,10 @@ each team member, with their respective information.
 
 MIT 
 
+### Screenshot of rendered file
+
+![Screenshot](/Assets/sample-screenshot.png)
+
+
 ### Walkthrough Demo
 
