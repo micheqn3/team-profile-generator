@@ -26,11 +26,11 @@ nav {
 .card {
     background-color: #fff;
     width: 300px;
-	border-radius: 2px;
-	overflow: hidden;
-	background: rgba(255,255,255,1);
     margin: 0 auto;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 2px;
+	overflow: hidden;
+	background: rgba(255,255,255,1);
 }
 
 .fa-user-tie, 
