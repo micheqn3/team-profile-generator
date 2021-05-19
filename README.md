@@ -50,6 +50,12 @@ each team member, with their respective information.
   - HTML/CSS
   - Chalk
 
+### Testing
+
+This application utilizes Jest to run unit tests.
+To run the test:
+> npm test
+
 ### Screenshot of rendered file
 
 ![Screenshot](/Assets/sample-team-profile.png)
