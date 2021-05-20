@@ -6,7 +6,7 @@ The application uses the inquirer package to present a set of questions to the u
 employee in their team, which will be categorized into these classes: Employee (parent class), Engineer, Intern, and Manager.
 
 The prompts will continue to ask the user whether they want to add another engineer, intern, or finish building their team.
-If they choose to finish building their team, the applcation will retrieve the user data and render an HTML document that lists the profiles of
+If they choose to finish building their team, the application will retrieve the user data and render an HTML document that lists the profiles of
 each team member, with their respective information. 
 
 ### Installation 
@@ -15,7 +15,7 @@ each team member, with their respective information.
 2. Clone this repo
 > HTTPS: `https://github.com/micheqn3/team-profile-generator.git` <br>
 > SSH: `git@github.com:micheqn3/team-profile-generator.git`
-3. Install the NPM package 
+3. Install the NPM packages
 > npm install
 4. Run the application in command line 
 > node index.js
